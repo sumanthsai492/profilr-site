@@ -26,6 +26,7 @@ section.banner{
     padding-top: 10%;
     display: grid;
     grid-column-start: 2;
+    padding: 2.5%;
 }
 .text h2{
     font-size: 30px;

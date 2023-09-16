@@ -12,13 +12,20 @@ section.banner{
     display: flex;
     align-items: center;
 }
+.container{
+    display: grid;
+}
 .image{
     width: 36%;
+    display: grid;
+    grid-column-start: 1;
 }
 .text{
     width: auto;
     color: white;
-    padding-left: 7%;
+    padding-top: 10%;
+    display: grid;
+    grid-column-start: 2;
 }
 .text h2{
     font-size: 30px;
